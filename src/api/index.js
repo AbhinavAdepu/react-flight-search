@@ -6,7 +6,7 @@ const {
 } = Config;
 
 const get = (url, params, headers) => new Promise((resolve) => {
-  axios.get(baseUri + url, { params, headers })
+  axios.get(baseUri, { params, headers })
     .then(response => resolve(response))
     .catch(error => resolve(error.response));
 });

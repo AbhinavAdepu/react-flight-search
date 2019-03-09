@@ -1,0 +1,153 @@
+.left-form-holder {
+	.search-form {
+		padding: 20px 0px 20px 0;
+		border-top: 1px solid $theme-red;
+	}
+}
+.right-data-holder {
+	border-left: 1px solid $theme-border-color;
+	.hurry-now-container {
+		color: $black;
+		opacity: 0.5;
+		margin-top: 30px;
+		div {
+			font-size: 18px;
+		}
+	}
+}
+
+
+/* Split view start */
+.left-form-holder.split-view {
+	ul.lfh-tabs li {
+		min-width: inherit;
+		font-size: 12px;
+	}
+}
+.return-journey {
+	.flight-detail-heading {
+		i {
+			transform: rotate(180deg);
+		}
+	}
+}
+.right-data-holder.split-view {
+	.col-md-2 {
+		padding-right: 0px;
+	}
+	.logo-holder {
+		padding: 0;
+		max-width: 6%;
+	}
+	.flight-detail-top {
+		font-size: 14px;
+	}
+	.flight-detail-bottom {
+		font-size: 10px;
+	}
+	.flight-price {
+		font-size: 14px;
+	}
+	button {
+		min-width: inherit;
+		font-size: 12px;
+	}
+}
+/* Split view end */
+
+
+/* Tabs -start */
+ul.lfh-tabs {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	li {
+		display: inline-block;
+		min-width: 100px;
+		padding: 5px 10px;
+		color: $black;
+		border-top-left-radius: $theme-border-radius;
+		border-top-right-radius: $theme-border-radius;
+		text-align: center;
+		cursor: pointer;
+	}
+	li.active {
+	    background: $theme-red;
+	    color: $white;
+	    border: 1px solid $theme-red;
+	    cursor: default;
+	}
+}
+/* Tabs -end */
+
+.search-form {
+	.date-field input {
+		padding-right: 20px;
+	}
+	i {
+		position: absolute;
+		color: $black;
+		opacity: 0.7;
+		top: 9px;
+		right: 10px;
+	}
+}
+.flight-detail {
+	width: 100%;
+	border: 1px solid $theme-border-color;
+	padding: 10px;
+	font-size: 12px;
+	border-radius: $theme-border-radius;
+	.flight-detail-heading {
+		i {
+			font-size: 16px;
+			vertical-align: middle;
+		}
+		p {
+			vertical-align: middle;
+			padding-left: 5px;
+		}
+	}
+	span {
+		margin-right: 5px;
+	}
+	.flight-detail-top {
+		opacity: 0.6;
+		color: $black;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.flight-detail-bottom {
+		color: $theme-grey;
+		font-size: 11px;
+	}
+	.flight-name-holder {
+		padding: 0px;
+	}
+	.flight-name {
+		color: $theme-grey;
+		font-weight: 400;
+	}
+	.flight-price-top {
+		font-size: 14px;
+		color: $theme-red;
+		i {
+			margin-right: 2px;
+		}
+	}
+	.flight-price {
+		color: $theme-red;
+		font-size: 18px;
+		i {
+			margin-right: 2px;
+		}
+	}
+	button {
+		min-width: 80px;
+		border-radius: $theme-border-radius;
+		&:focus, &:active {
+			outline: none;
+			box-shadow: none;
+		}
+	}
+}

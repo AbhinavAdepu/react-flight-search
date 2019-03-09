@@ -1,0 +1,50 @@
+/* colors */
+
+.background-page {
+	background-color: $theme-background;
+}
+
+.background-white {
+	background-color: $white;
+}
+
+.text-black {
+	color: $black;
+}
+
+.text-grey {
+	color: $theme-grey;
+}
+
+.text-theme-red {
+	color: $theme-red;
+}
+
+.text-theme-blue {
+	color: $theme-blue;
+}
+
+/* margins */
+
+.margin-auto {
+	margin: auto;
+}
+.margin-0 {
+	margin: 0px;
+}
+
+.margin-top-3 {
+	margin-top: 3px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.margin-right-10 {
+	margin-right: 10px;
+}

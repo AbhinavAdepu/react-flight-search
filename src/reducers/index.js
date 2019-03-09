@@ -1,12 +1,12 @@
-import { combineReducers } from 'redux-immutable';
+import { combineReducers } from 'redux';
 
 import {
   reducer as form,
-} from 'redux-form/immutable';
+} from 'redux-form';
 
-import authObject from './AuthReducer';
+import flight from './FlightReducer';
 
 export default combineReducers({
-  authObject,
+  flight,
   form,
 });

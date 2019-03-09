@@ -1,0 +1,59 @@
+/* Type ahead */
+
+.rbt-input-hint-container {
+	div input {
+		color: transparent!important;
+	}
+}
+.rbt-menu  {
+	border-radius: $theme-border-radius;
+	border: 1px solid $color-form-field-border;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-top: 0px;
+	a.dropdown-item {
+		padding-left: 5px;
+		font-size: 14px;
+		color: $black;
+		opacity: 0.7;
+		mark {
+			font-weight: bold;
+		}
+	}
+}
+
+/* React Select */
+.form__form-group-select {
+	.css-vj8t7z, .css-2o5izw {
+		border-radius: $theme-border-radius;
+		border: 1px solid $color-form-field-border;
+		min-height: 32px;
+		height: 32px;
+		&:hover {
+			border-color: $color-form-field-border;
+		}
+		.css-1492t68 {
+		  	color: $color-placeholder-text;
+	      	font-style: italic;
+	      	font-weight: normal;
+	      	font-size: 12px;
+	      	margin-top: -3px;
+		}
+		.css-d8oujb {
+			margin-top: 4px;
+			margin-bottom: 10px;
+		}
+		.css-1ep9fjw, .css-1uq0kb5 {
+			margin-top: -6px;
+		}
+		.css-1g6gooi {
+			padding: 0px;
+			margin: 0px;
+		}
+	}
+	.css-10nd86i {
+		&:focus {
+			outline: none;
+		}
+	}
+}

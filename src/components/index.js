@@ -1,7 +1,13 @@
 import Header from './Header';
-import Footer from './Footer';
+import TripTabs from './TripTabs';
+import FlightSearchForm from './FlightSearchForm';
+import TopSingleFlightDetail from './TopSingleFlightDetail';
+import SingleFlightRow from './SingleFlightRow';
 
 export {
   Header,
-  Footer,
+  TripTabs,
+  FlightSearchForm,
+  TopSingleFlightDetail,
+  SingleFlightRow,
 };
